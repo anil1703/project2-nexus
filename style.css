@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+.logostyle{
+    height: 50px;
+}
+.logotext{
+    font-family: 'Black Ops One';
+    color: red;
+    font-size: 50px;
+}
+
+.home-off-bg{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.home-off-text{
+    color:green;
+    font-size: 50px;
+    font-family: 'Black Ops One', system-ui;
+    text-align: center;
+}
+
+.home-off-text-para{
+    text-align: center;
+    color: white;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home-off-butnstyle{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border-style: solid;
+
+    border-color: green;
+    color:green;
+    background-color:transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-off-butnstyle:hover{
+    background-color: green;
+    color:white;
+}
+
+.home-on-bg{
+    background-image: url("https://res.cloudinary.com/dafmi9027/image/upload/v1706176145/Fire%20Wheels/yqeq6pbhkx1sdi3okpmf.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+.none-off{
+    display: none;
+}
+
+.home-on-points{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family:'Black Ops One';
+    margin-top: 80px;
+}
+
+.point-last{
+    font-family: 'Black Ops One';
+    text-align: center;
+    padding-bottom: 30px;
+    background: -webkit-linear-gradient(white,green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.point{
+    font-size: 50px;
+    background: -webkit-linear-gradient(#eee, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.latest-cars-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+
+.latest-car-box{
+    width: 100%;
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    
+}
+.latest-car-box:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+}
+
+.latest-car-sec{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.latest-cars-butn-style{
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    color: white;
+    background-color: #5C8374;
+}
+
+.latest-car-img{
+    border-radius: 3px;
+    width: 100%;
+}
+.aboutsectionvh{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutus-cont{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.about-car-img{
+    width: 100%;
+    max-width: 500px;
+}
+
+.about-bonxex-cont{
+    display: flex;
+    margin-top: 30px;
+    width: 80px;
+}
+
+.aboutb0xes{
+    border:#5C8374 2px solid;
+    padding: 10px;
+    border-radius: 8px;
+    color: #5C8374;
+    margin-right:20px;
+    
+}
+.aboutb0xes:hover{
+    cursor: pointer;
+    background-color: #5C8374;
+    color: white;
+    
+}
+.our-services-sec{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+
+.icon-bg{
+    background-color: #5C8374;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
+.service-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.inside-serice-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 15px;
+    background: linear-gradient(to left,white 50%,#5C8374 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: background-position 0.5s ease-out;
+    border-radius: 8px;
+    border: #5C8374 2px solid;
+    padding: 10px;
+}
+
+
+.inside-serice-cards:hover{
+    background-position: left;
+    color: white;
+    cursor: pointer;
+}
+
+.icons-style{
+    font-size: 40px;
+    color: white;
+}
+
+.testimonials-bg{
+    background-color: #5C8374;
+    border-radius: 8px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 300px;
+}
+
+.testimonials-img-style{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top:0px;
+    border: white 3px solid;
+}
+.test-para{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.inbox-bg{
+    border: #5C8374 3px solid;
+    padding: 20px;
+    border-radius: 4px;
+    
+}
+.mesg-box-display{
+    display: flex;
+    justify-content: space-between;
+    scroll-snap-align: center;
+}
+
+.footer-sec{
+    background-image: linear-gradient(to right,#5C8374,#5c8374a5);
+    color: white;
+    padding: 10px;
+    margin-top: -125px;
+}
+
+
+.footer-sec-sub-head {
+    color: white;
+    font-size: 30px;
+}
+
+.icon-bg-foot {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.phtogalery-bg{
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.footer-head {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-para {
+    color: white;
+    font-size: 15px;
+}
+
+
+@media(max-width:768px){
+    .home-on-points{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .point{
+        font-size: 35px;
+        padding-bottom: 15px;
+
+    }
+    .latest-car-sec{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .latest-cars-cont{
+        flex-direction: column;
+        
+    }
+
+    .latest-car-box{
+        max-width: none;
+    }
+    .latest-car-box{
+        margin-right: 0px;
+    }
+    .aboutus-cont{
+        flex-direction: column;
+    }
+    .about-us-para{
+        order: 2;
+        margin-top: 25px;
+    }
+    .aboutb0xes{
+        margin-right: 10px;
+        width: 100%;
+    }
+        
+
+    .service-cards{
+        flex-direction: column;
+    
+    }
+    .inside-serice-cards{
+        margin-bottom: 20px;
+    }
+    .service-cards{
+        margin-top: 5px;
+    }
+    .our-services-sec{
+        height: 100vh;
+    }
+    .test-para{
+        margin: 30px;
+        
+    }
+    .testimonials-bg{
+        height: 100%;
+    }
+    .mesg-box-display{
+        flex-direction: column;
+    }
+    .footer-sec{
+        margin-top: -40px;
+    }
+
+}
